@@ -1,0 +1,132 @@
+* {
+    padding:2px;
+    margin:0%;
+    
+    }
+
+
+.demo {  
+    background-image:url("ahmed.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+header{
+  
+    margin-top:2%;
+}
+
+.logo h2 {
+    color:rgb(167, 167, 26);
+    margin-left:20px;
+ 
+}
+
+nav {
+  margin-top:5%;
+  
+
+}
+nav ul {
+    margin-left: 0%;
+    flex-basis: 15px;
+    
+   
+}
+
+nav ul li {
+    display:inline-block;
+    list-style:none;
+    margin-left:25px;
+    font-size: 35px;
+    
+    
+    
+
+}
+
+nav ul li:hover {
+    border:1px solid white;
+    border-radius:5px;
+}
+
+
+nav ul .active  {
+    border:1px solid white;
+    border-radius: 5px;;
+    
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color:white;       
+    font-size: 20px; 
+    
+}
+
+
+.text {
+    margin-top:11%;
+}
+
+.text h1 {
+    color:white;
+    text-align: center;
+    font-family: 'Gill Sans';
+   
+}
+.button{
+    margin-left:40%;
+   
+   
+}
+
+button {
+    width:120px;
+    height:40;
+    border:1px solid rgb(253, 255, 255); 
+    margin-right: 15px;
+    margin-top:2%;
+    border-radius: 5px;
+  
+}
+button a {
+    text-decoration:none;
+    font-size:20px;
+    
+   
+}
+
+.btn-1 {
+    background:darkgoldenrod;
+    border:solid rgb(248, 246, 241);
+   
+   
+}
+
+.btn-1  a {
+    color:darkred;
+}
+
+.btn-2:hover {
+
+
+    border: solid rgb(139, 67, 7);
+   
+
+}
+
+.image {
+    margin-top:7%;
+    margin-left:25%;
+    
+}
+
+img {
+    margin-right:18px;
+    border:2px solid rgb(46, 106, 146);
+}
